@@ -1,0 +1,6 @@
+Top Regions
+1.Display the most popular regions in which photos have been taken on flickr.
+2.The popularity of a region is determined by how many different photographers have taken a photo in that region among the photos you’ve downloaded from Flickr. Only show the 50 most popular regions in your UI.
+3.When a region is chosen, all the photos in your database that were taken in that region should be displayed (no sections are required). When a photo is then chosen,  show it inside a scrolling view that allows the user to pan and zoom (a reasonable amount).Whenever a photo’s image appears on screen, it should automatically zoom to show as much of the photo as possible with no extra, unused space. Once the user zooms in or out on a photo by pinching, though, you can stop auto-zooming that image.
+4.Your application’s main thread should never be blocked (e.g. Flickr fetches must happen in a different thread). If your application is waiting for something over the network, it should give feedback to the user that that is happening.
+5.Your application must work in both portrait and landscape orientations on both the iPhone and the iPad.
